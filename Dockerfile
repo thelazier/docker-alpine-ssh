@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV PARAM
+ENV PARAM "-v -n"
 
 RUN apk --update add --no-cache openssh-client bash
 
